@@ -18,7 +18,7 @@ my_dict['list'].pop(1)
 # Для того, что хранится под ключом ‘dict’:
 # добавьте элемент с ключом ('i am a tuple',) и любым значением
 # удалите какой-нибудь элемент
-my_dict['dict']['i am a tuple'] = 'value for the new key'
+my_dict['dict'][('i am a tuple',)] = 'value for the new key'
 my_dict['dict'].pop('one')
 
 # Для того, что хранится под ключом ‘set’:
