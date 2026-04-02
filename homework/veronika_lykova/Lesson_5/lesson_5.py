@@ -1,7 +1,7 @@
 # Task 1
 person = ['John', 'Doe', 'New York', '+1372829383739', 'US']
 name, last_name, city, phone, country = person
-print (name, last_name, city, phone, country)
+print(name, last_name, city, phone, country)
 
 # Task 2
 string1 = 'результат операции: 42'
@@ -20,7 +20,7 @@ find_number_position3 = string3.index(':') + 2
 number3 = int(string3[find_number_position3:]) + 10
 print(number3)
 
-#Task 3
+# Task 3
 students = ['Ivanov', 'Petrov', 'Sidorov']
 subjects = ['math', 'biology', 'geography']
 print(', '.join(students) + 'study these subjects: ' + ', '.join(subjects))
